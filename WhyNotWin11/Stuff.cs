@@ -113,6 +113,11 @@ namespace WhyNotWin11
             return "Found!";
         }
 
+        public static string getResolution()
+        {
+            return $"{Screen.PrimaryScreen.Bounds.Width.ToString()}x{Screen.PrimaryScreen.Bounds.Height.ToString()}";
+        }
+
         private static string cmdOutput(string x, string y)
         {
             Process p = new Process();

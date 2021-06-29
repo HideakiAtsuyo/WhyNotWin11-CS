@@ -66,6 +66,9 @@ namespace WhyNotWin11
             this.BMC = new System.Windows.Forms.PictureBox();
             this.ArchC = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.SRR = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.SRC = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.TPMC)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SAC)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SBC)).BeginInit();
@@ -77,6 +80,7 @@ namespace WhyNotWin11
             ((System.ComponentModel.ISupportInitialize)(this.CCC)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BMC)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ArchC)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SRC)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -476,12 +480,47 @@ namespace WhyNotWin11
             this.label4.TabIndex = 36;
             this.label4.Text = "** Just a C# Version";
             // 
+            // SRR
+            // 
+            this.SRR.AutoSize = true;
+            this.SRR.BackColor = System.Drawing.Color.Gray;
+            this.SRR.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SRR.ForeColor = System.Drawing.Color.Red;
+            this.SRR.Location = new System.Drawing.Point(394, 505);
+            this.SRR.Name = "SRR";
+            this.SRR.Size = new System.Drawing.Size(14, 15);
+            this.SRR.TabIndex = 39;
+            this.SRR.Text = "?";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(143, 498);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(188, 25);
+            this.label7.TabIndex = 38;
+            this.label7.Text = "Screen Resolution";
+            // 
+            // SRC
+            // 
+            this.SRC.Image = global::WhyNotWin11.Properties.Resources.Dots;
+            this.SRC.Location = new System.Drawing.Point(105, 493);
+            this.SRC.Name = "SRC";
+            this.SRC.Size = new System.Drawing.Size(32, 32);
+            this.SRC.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.SRC.TabIndex = 37;
+            this.SRC.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(646, 523);
+            this.ClientSize = new System.Drawing.Size(646, 547);
+            this.Controls.Add(this.SRR);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.SRC);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.TPMR);
             this.Controls.Add(this.label24);
@@ -535,6 +574,7 @@ namespace WhyNotWin11
             ((System.ComponentModel.ISupportInitialize)(this.CCC)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BMC)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ArchC)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SRC)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -579,6 +619,9 @@ namespace WhyNotWin11
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.PictureBox TPMC;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label SRR;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.PictureBox SRC;
     }
 }
 

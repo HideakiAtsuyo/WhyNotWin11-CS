@@ -50,6 +50,7 @@ namespace WhyNotWin11
                     SBR.Text = Stuff.getSecureBootSupport();
                     SAR.Text = String.Format("{0} GB on C:\\", Stuff.getDriveTotalSpace("C").ToString());
                     TPMR.Text = Stuff.getTPM_Version_NeedToFindSomeThing();
+                    SRR.Text = Stuff.getResolution();
                     Verifications();
                 });
                 z.Start();
@@ -120,6 +121,11 @@ namespace WhyNotWin11
                 TPMC.Image = Properties.Resources.Yes;
             else
                 TPMC.Image = Properties.Resources.No;
+            /*                                      */
+            if (int.Parse(SRR.Text.Split('x')[1]) > 720)
+                SRC.Image = Properties.Resources.Yes;
+            else
+                SRC.Image = Properties.Resources.No;
             /*                                      */
             MessageBox.Show("Finished!(Yeah not really fast sorry :))");
         }
