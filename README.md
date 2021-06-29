@@ -1,7 +1,7 @@
 # WhyNotWin11-CS
 
 
-[Click Here to see the Hardware Requiremetns](https://docs.microsoft.com/en-us/windows/whats-new/windows-11-requirements#hardware-requirements)
+[Click Here to see the Hardware Requirements](https://docs.microsoft.com/en-us/windows/whats-new/windows-11-requirements#hardware-requirements)
 
 <br>
 
