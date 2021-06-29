@@ -24,3 +24,7 @@
     - [x] ~~TPM~~ (Removed with recent changes from Microsoft)
     - [x] UEFI
     - [x] WDDM 2
+
+<!--
+I have to plan to put a lot of if and else if in addition
+-->
